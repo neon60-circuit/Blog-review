@@ -1,0 +1,74 @@
+@font-face {
+    font-family: 'static';
+    src: url('assets/fonts/Inter-VariableFont_slnt\,wght.ttf') format('truetype'); 
+}
+
+:root{
+    --color-hover: hsl(75, 94%, 57%);
+    --color-background: hsl(0, 0%, 8%);
+    --color-padding: hsl(0, 0%, 12%);
+    --color-buttons:  hsl(0, 0%, 20%);
+    --text: hsl(0, 0%, 100%);
+}
+
+body{
+    background-color:var(--color-background);
+    padding: 0.5rem;
+    min-height: 100vh;
+    margin: 0;
+    box-sizing: border-box;
+}
+.heroic-image {
+     width:600px;
+    height: auto;
+    border-radius: 2000px;
+    height: 100px;
+    width: 100px;
+}
+
+.container {
+    max-width: 300px;
+    margin: 0 auto;
+    margin-top: 40px;
+    padding: 2rem;
+    background-color: var(--color-padding);
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 1440px;
+    height: 525px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.header {
+    color: var(--text);
+    font-family: 'static';
+}
+.lemon {
+    color: var(--color-hover);
+    font-family: 'static';
+}
+.btn {
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background-color: var(--color-buttons);
+    color: var(--text);
+    font-family: 'static';
+    font-weight: bold;
+    border: none;
+    transition: background-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.btn:hover {
+    background-color: var(--color-hover);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.18);
+    cursor: pointer;
+}
+@media screen and(min-width: 375px){
+    .container{
+        font-size: 40px;
+    }
+}
