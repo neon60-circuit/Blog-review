@@ -1,59 +1,57 @@
-﻿# Social Links Profile
+# Blog Preview Card
 
-A simple social profile card built with HTML and CSS.
-
-This project includes a centered profile card with an avatar, name, location, quote, and five styled social buttons.
+A simple responsive blog preview card built with HTML and CSS.
 
 ## Overview
 
-- Single-page profile layout
-- Local custom font used from `assets/fonts`
-- Button hover effects and consistent color styling
-- Mobile-friendly card design
+This project recreates a blog preview card design using semantic HTML, CSS layout, and responsive styling.
+
+The card includes:
+- a featured illustration
+- a category button
+- publication details
+- title and descriptive text
+- author avatar and name
+
+## Screenshot
+
+![Blog preview card screenshot](./preview.jpg)
+
+> Replace this image path with a screenshot of your final design once you have one.
 
 ## Built with
 
 - HTML5
 - CSS3
-- CSS custom properties
+- Responsive layout
+- Flexbox
 
-## Project details
+## How to use
 
-The page includes:
+1. Open `index.html` in your browser.
+2. The styles are defined in `style.css`.
+3. The project assets are located in `assets/images`.
 
-- a circular profile image (`assets/images/avatar-jessica.jpeg`)
-- profile name and location text
-- quote text under the name
-- five social buttons: GitHub, Frontend Mentor, LinkedIn, Twitter, Instagram
+## Project structure
 
-The buttons use a hover effect to change their background color, raise slightly, and add a soft shadow.
+- `index.html` — markup for the blog preview card.
+- `style.css` — styling for layout, spacing, typography, and responsive behavior.
+- `assets/images` — illustration, avatar, and favicon files.
+- `style-guide.md` — design details for colors and fonts.
 
 ## Notes
 
-- The profile buttons are currently plain `<button>` elements. You can replace these with `<a>` links if you want them to navigate to real profiles.
-- The page layout is centered by a `.container` card with padding, rounded corners, and a dark background.
-- CSS custom properties are used for the page background, button color, hover color, and text color.
-
-## How to run
-
-1. Open `index.html` in your browser.
-2. Ensure `style.css` is in the same folder as `index.html`.
-3. The profile card should display in the center with the avatar and buttons.
-
-## Improvements
-
-Possible next steps:
-
-- Add actual profile URLs to each button
-- Improve desktop layout and spacing
-- Add keyboard focus styles for accessibility
-- Convert buttons to anchor links for better semantics
+- The card is designed to match the provided challenge styling.
+- The page uses a mobile-first layout and adapts to larger screens.
+- Interactive elements should include hover and focus states for accessibility.
 
 ## Author
 
-- Your Name Here
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor challenge: Blog preview card
+- Project created by [Your Name]
 
 ## Acknowledgments
 
-Thanks to Frontend Mentor for the project starter files and design inspiration.
+- Frontend Mentor for the challenge design and assets
+- The `style-guide.md` file for color and font information
+
